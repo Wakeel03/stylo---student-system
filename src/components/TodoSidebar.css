@@ -1,0 +1,48 @@
+.todoSidebar{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 30px;
+}
+
+
+.todos-subheading{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todos-subheading p{
+    margin-right: 20px;
+}
+
+.searchbar form input{
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    width: 96%;
+    padding: 12px 14px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.todo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 96%;
+    height: 120px;
+    border-radius: 5px;
+    border-left: var(--secondary-color) 5px solid;
+    padding: 24px;
+    background-color: var(--primary-color);
+}
+
+.todo-card p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.todo-card i{
+    margin: 0 -2px;
+}
