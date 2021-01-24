@@ -25,3 +25,11 @@
     cursor: pointer;
     height: 91px;
 }
+
+
+.module-card h2{
+    margin-left: 14px;
+    margin-right: auto;
+    margin-bottom: 4px;
+    cursor: pointer;
+}

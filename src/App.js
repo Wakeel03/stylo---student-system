@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './components/Home';
-import ModulePage from './components/ModulePage'
+import ChapterPage from './components/ChapterPage';
 import SideBar from './components/SideBar';
+import ChapterDetailPage from './components/ChapterDetailPage'
 
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom"
 
@@ -18,7 +19,7 @@ function App() {
       <div className="center-section">
         <Switch>
           <Route path="/" exact component={ Home }/>
-          <Route path="/module/:id" component={ ModulePage }/>
+          <Route path="/module/:id" component={ ChapterPage }/>
         </Switch> 
       </div>
 
